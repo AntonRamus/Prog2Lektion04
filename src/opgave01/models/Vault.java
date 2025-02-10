@@ -11,7 +11,7 @@ public class Vault<T> {
 
 
     public T getSecret(String password) {
-        if (password.equals(password)) {
+        if (this.password.equals(password)) {
             return secret;
         }
         else {
